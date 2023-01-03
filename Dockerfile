@@ -3,7 +3,7 @@ FROM openjdk:8-alpine
 # Required for starting application up.
 RUN apk update && apk add /bin/sh
 
-RUN mkdir -p /opt/app
+RUN mkdir -p /opt/appl
 ENV PROJECT_HOME /opt/app
 
 #It's copying the jar from jenkins under target directory
